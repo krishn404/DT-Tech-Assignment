@@ -1,0 +1,47 @@
+hr {
+  height: 3px;
+}
+.none {
+  display: none;
+}
+.overflow-div {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  border: none;
+}
+.overflow-button {
+  border-radius: 100%;
+}
+
+.overflow-section {
+  position: fixed;
+  top: 70px;
+  left: -300px;
+  transition: left 0.3s ease;
+}
+
+.overflow-section.active {
+  left: 0;
+}
+
+li {
+  list-style-type: disc;
+}
+
+.notification {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+}
+
+.overflow-section-right {
+  position: fixed;
+  top: 70px;
+  right: -550px;
+  transition: right 0.3s ease;
+}
+
+.overflow-section-right.active {
+  right: 0;
+}
