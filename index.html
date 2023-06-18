@@ -1,0 +1,361 @@
+<!DOCTYPE html> <!-- Submitted by krishn404 -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Development Assignment by DT</title  
+	
+	<!-- Submitted by krishn404 -->
+    
+	<link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header
+      class="drop-shadow-lg flex bg-[#F0F0F0] px-10 py-3 items-center justify-between mb-5"
+    >
+      <!-- Logo -->
+      <div class="flex">
+        <a href=""
+          ><img
+            src="https://deepthought.education/assets/images/logo/logo.svg"
+            alt=""
+            srcset=""
+        /></a>
+      </div>
+
+      <!-- Icons -->
+      <div class="flex gap-3">
+        <button class="w-[2.5em] h-[2.5em] p-1.5 rounded-full bg-[#3683F0]">
+          <i class="text-white fa fa-home-lg"></i>
+        </button>
+        <button class="w-[2.5em] h-[2.5em] p-1.5 rounded-full bg-[#3683F0]">
+          <i class="text-white fa fa-tools"></i>
+        </button>
+        <button class="w-[2.5em] h-[2.5em] p-1.5 rounded-full bg-[#3683F0]">
+          <i class="text-white fa fa-bell"></i>
+        </button>
+        <button class="w-[2.5em] h-[2.5em] p-1.5 rounded-full bg-[#3683F0]">
+          <i class="text-white fa fa-images"></i>
+        </button>
+        <button class="w-[2.5em] h-[2.5em] p-1.5 rounded-full">
+          <i class="text-[#3683F0] fa fa-ellipsis-v"></i>
+        </button>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Main -->
+    <main class="flex flex-col mx-24 gap-6 mb-6">
+      <!-- About -->
+      <div class="flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-[#0029ff]">
+          Technical Project Management
+        </h1>
+
+        <button class="p-2 px-4 bg-[#0029ff] rounded-xl text-white">
+          Submit Task
+        </button>
+      </div>
+      <!-- About End -->
+
+      <!-- Discription -->
+      <div class="p-6 bg-[#E9ECEF] rounded-md mb-10">
+        <h2 id="task_title" class="text-lg font-bold mb-4">
+          Explore the world of management
+        </h2>
+        <p id="task_description" class="text-[14px]">
+          As a project manager, you play an important role in leading a project
+          through initiation, planning, execution, monitoring, controlling and
+          completion. How? Do you want to manage each and every step of your
+          life?
+        </p>
+      </div>
+
+      <!-- Techinal Section -->
+      <div class="flex flex-wrap gap-5 justify-between">
+        <section class="basis-[45%] pb-4 rounded-b-xl shadow-xl">
+          <div
+            class="p-2 py-4 mb-4 rounded-t-xl bg-black flex justify-around items-center"
+          >
+            <h3 class="text-white asset-title">Technical Project Management</h3>
+            <i class="fa fa-info text-white"></i>
+          </div>
+
+          <p class="m-4 pr-8 mb-8 asset_description"></p>
+
+          <iframe
+            width="100%"
+            height="400"
+            scrolling="no"
+            src="https://www.youtube.com/embed/TiMRwri1xJ8"
+            title="Technological Project Management"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </section>
+
+        <!-- Theadbuild Section -->
+        <section class="basis-[45%] pb-4 rounded-b-xl shadow-xl">
+          <div
+            class="p-2 py-4 mb-4 rounded-t-xl bg-black flex justify-around items-center"
+          >
+            <h3 class="text-white asset-title">Threadbuild</h3>
+            <i class="fa fa-info text-white"></i>
+          </div>
+
+          <p class="m-4 pr-8 mb-8 asset_description"></p>
+
+          <hr />
+
+          <div class="p-4 border-b-2">
+            <label id="thread-a" for="" class="flex gap-5 items-center">
+              <i id="thread-a-icon-1" class="fa-solid fa-chevron-up"></i>
+              <h4 class="text-lg font-bold">Thread A</h4>
+            </label>
+          </div>
+
+          <div id="thread-a-section" class="p-6">
+            <!-- Sub Thread section -->
+            <div class="flex items-center justify-between mb-6">
+              <!-- Sub Thread 1 -->
+              <div
+                class="w-[45%] rounded-xl flex flex-col shadow-xl bg-[#E9ECEF]"
+              >
+                <label for="subt-1" class="p-3 bg-[#E9ECEF] rounded-t-xl"
+                  >Subthread 1</label
+                >
+                <textarea
+                  placeholder="Enter text here"
+                  name=""
+                  cols="30"
+                  rows="5"
+                  class="p-3 rounded-xl shadow-xl border-2"
+                  id="subt-1"
+                ></textarea>
+              </div>
+
+              <!-- Sub Thread 2 -->
+              <div
+                class="w-[45%] rounded-xl flex flex-col shadow-xl bg-[#E9ECEF]"
+              >
+                <label for="subi-1" class="p-3 bg-[#E9ECEF] rounded-t-xl"
+                  >Sub Interpretation 1</label
+                >
+                <textarea
+                  placeholder="Enter text here"
+                  name=""
+                  cols="10"
+                  rows="5"
+                  class="p-3 rounded-xl shadow-xl border-2"
+                  id="subi-1"
+                ></textarea>
+              </div>
+            </div>
+
+            <!-- Icons -->
+            <div class="flex flex-row-reverse gap-4 items-center">
+              <div class="dropdown text-center">
+                <button
+                  class="btn p-3 shadow-xl rounded-xl font-semibold text-sm"
+                >
+                  Select Process<i class="mx-2 fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="dropdown-content none">
+                  <p>Hello World!</p>
+                </div>
+              </div>
+
+              <div class="dropdown text-center">
+                <button
+                  class="btn-1 p-3 shadow-xl rounded-xl font-semibold text-sm"
+                >
+                  Select Category<i class="mx-2 fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="overflow dropdown-content-1 none">
+                  <p>Option 1</p>
+                </div>
+              </div>
+
+              <a href=""><img src="icons/Vector1.png" alt="" srcset="" /></a>
+              <a href=""><img src="icons/Vector-1.png" alt="" srcset="" /></a>
+              <a href=""><img src="icons/Vector-2.png" alt="" srcset="" /></a>
+              <a href=""><img src="icons/Vector-3.png" alt="" srcset="" /></a>
+            </div>
+            <div class="mt-8 rounded-xl flex flex-col shadow-xl bg-[#E9ECEF]">
+              <label for="subi-1" class="p-3 bg-[#E9ECEF] rounded-t-xl"
+                >Summary for Thread A</label
+              >
+              <textarea
+                placeholder="Enter text here"
+                name=""
+                cols="10"
+                rows="4"
+                class="p-3 rounded-xl shadow-xl border-2"
+                id="subi-1"
+              ></textarea>
+            </div>
+          </div>
+        </section>
+
+        <div class="flex basis-[45%]">
+          <section class="pb-4 rounded-b-xl shadow-xl">
+            <div
+              class="p-2 py-4 mb-4 rounded-t-xl bg-black flex justify-around items-center"
+            >
+              <h3 class="text-white asset-title">Structure Your Pointers</h3>
+              <i class="fa fa-info text-white"></i>
+            </div>
+
+            <p class="m-4 pr-8 mb-8 asset_description"></p>
+
+            <hr />
+
+            <div class="p-6">
+              <h3 class="text-lg font-semibold mb-2">Title</h3>
+              <input
+                class="w-full p-2 rounded-md drop-shadow-lg border-2 mb-7"
+                type="text"
+              />
+
+              <h3 class="text-lg font-semibold mb-2">Content</h3>
+              <div
+                class="flex flex-col p-3 gap-2 rounded-md drop-shadow-lg border-t-2 bg-[#FCFBFB]"
+              >
+                <div class="flex gap-4">
+                  <a href="">File</a>
+                  <a href="">Edit</a>
+                  <a href="">View</a>
+                  <a href="">Insert</a>
+                  <a href="">Format</a>
+                  <a href="">Tools</a>
+                  <a href="">Table</a>
+                  <a href="">Help</a>
+                </div>
+                <div class="flex items-center gap-4">
+                  <a href=""><img src="icons/Icon.png" alt="" /></a>
+                  <a href=""><img src="icons/Icon-1.png" alt="" /></a>
+                  <a href=""><img src="icons/Icon-2.png" alt="" /></a>
+                  <p class="pr-6 bg-[#EBEBEB]">Paragraph</p>
+                  <i class="fa fa-ellipsis"></i>
+                </div>
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  class="border-2"
+                ></textarea>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <section class="basis-[45%] pb-4 rounded-b-xl shadow-xl">
+          <div
+            class="p-2 py-4 mb-4 rounded-t-xl bg-black flex justify-around items-center"
+          >
+            <h3 class="text-white asset-title">4SA Method</h3>
+            <i class="fa fa-info text-white"></i>
+          </div>
+
+          <p class="m-4 pr-8 py-12 mb-8 asset_description"></p>
+
+          <hr />
+
+          <div class="px-8">
+            <label
+              id="introduction"
+              for=""
+              class="flex gap-5 p-4 items-center bg-[#F2F2F2] mb-4"
+            >
+              <i id="introduction-icon" class="fa-solid fa-chevron-up"></i>
+              <h4 class="text-lg font-bold">Introduction</h4>
+            </label>
+
+            <div class="px-4 py-2 mb-4 introduction-sec">
+              <p class="mb-6">
+                The 4SA Method , How to bring a idea into progress ?
+              </p>
+              <p class="text-right text-[#606161] font-semibold mb-4">
+                See more
+              </p>
+
+              <div>
+                <label
+                  id="introduction"
+                  for=""
+                  class="flex gap-5 p-4 items-center border-2 mb-4"
+                >
+                  <i id="introduction-icon" class="fa-solid fa-chevron-up"></i>
+                  <h4 class="text-lg font-bold">Thread A</h4>
+                </label>
+
+                <div class="px-4">
+                  <p class="mb-4">
+                    How are you going to develop your stratergy ? Which method
+                    are you going to use to develop a stratergy ? What if the
+                    project is lengthy?
+                  </p>
+                  <p class="text-right text-[#606161] font-semibold mb-4">
+                    See more
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Overflow Buttons -->
+    <div class="overflow-div gap-4 flex flex-col">
+      <button class="w-12 h-12 text-white bg-[#0029FF] overflow-button">
+        <i class="fa-solid fa-question font-black text-lg text-white"></i>
+      </button>
+      <button class="w-12 h-12 p-3 text-white bg-[#0029FF] overflow-button">
+        <img src="icons/meeting 1.png" alt="" srcset="" />
+      </button>
+      <button class="w-12 h-12 p-3 text-white bg-[#0029FF] overflow-button">
+        <img src="icons/schedule (1) 1.png" alt="" srcset="" />
+      </button>
+    </div>
+
+    <!-- Overflow Sections -->
+    <div
+      id="mainDiv"
+      class="overflow-section drop-shadow-xl bg-white rounded-r-xl"
+    >
+      <div class="p-2 py-4 mb-4 rounded-r-xl bg-black">
+        <h3 class="text-white">Journey Board</h3>
+      </div>
+      <ol class="px-12 mb-64" id="tasks"></ol>
+    </div>
+
+    <!-- 2 -->
+    <div
+      id="mainDiv-1"
+      class="flex overflow-section-right drop-shadow-xl bg-white rounded-l-xl"
+    >
+      <div class="p-2 py-4 rounded-l-xl bg-black flex flex-col items-center">
+        <i class="fa-solid fa-times font-black text-lg text-white mb-4"></i>
+        <h3 class="text-white notification">Notice Board</h3>
+      </div>
+      <p class="p-4">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime,
+        deleniti!
+      </p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
